@@ -79,7 +79,7 @@ src_install(){
 	done
 	fperms +x "${EPREFIX}/opt/${PN}/extensions/NetacadExamPlayer/NetacadExamPlayer"
 	fperms +x "${EPREFIX}/opt/${PN}/extensions/NetacadExamPlayer/QtWebEngineProcess"
-	fperms +x ${EPREFIX}/opt/${PN}/extensions/NetacadExamPlayer/ptplayer/*.*
+	fperms +x "${EPREFIX}"/opt/${PN}/extensions/NetacadExamPlayer/ptplayer/*.*
 	fperms +x "${EPREFIX}"/opt/${PN}/extensions/NetacadExamPlayer/ptplayer/java/bin/*
 	fperms +x "${EPREFIX}"/opt/${PN}/extensions/NetacadExamPlayer/ptplayer/java/lib/*.jar
 	fperms +x "${EPREFIX}"/opt/${PN}/extensions/NetacadExamPlayer/ptplayer/java/lib/ext/*.jar
